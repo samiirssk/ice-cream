@@ -1,0 +1,565 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins';
+    box-sizing: border-box;
+}
+:root{
+    --color-1:#f8f8f8;
+    --color-2:#fe019a;
+    --color-3:#563f2e;
+}
+header{
+    width: 100%;
+    height: 700px;
+    background-color: var(--color-1);
+}
+.sp{
+    width: 100%;
+    height: 100px;
+    background-color: var(--color-1);
+}
+.nav-bar{
+    padding: 20px 30px;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.nav-bar ul{
+    display: flex;
+    gap: 25px;
+}
+.nav-bar ul li{
+    list-style: none;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: var(--color-3);
+    font-size: 18px;
+}
+.nav-bar ul li a:hover{
+   color: var(--color-2);
+   transition: 0.5s;
+}
+.nav-bar .logo a{
+    color: var(--color-2);
+    text-decoration: none;
+    font-size: 40px;
+}
+.menu-icon i{
+    color: var(--color-2);
+    font-size: 30px;
+    display: none;
+}
+.menu-icon{
+    display: flex;
+}
+.cart img{
+    height: 40px;
+    width: 40px;
+}
+.btn-login{
+    padding:8px 20px;
+    border-radius: 30px;
+    background-color: var(--color-2);
+    border: none;
+    color: #f2f1f1;
+    font-size: 18px;
+}
+.btn-login a{
+ color: whitesmoke;
+}
+
+.header-row{
+    height: 100px;
+    width: 80%;
+    margin: 60px auto;
+    display: flex;
+    gap: 40px;
+}
+.header-row-col1{
+    width: 50%;
+    height: fit-content;
+}
+.header-row-col1 h1{
+    font-size: 50px;
+    color: var(--color-3);
+}
+.header-row-col1 span{
+    color: var(--color-2);
+}
+.header-row-col1 p{
+    color: var(--color-3);
+    padding-top: 5px;
+}
+.header-row-col1 .by-now{
+    padding: 6px 16px;
+    background-color: var(--color-2);
+    color: whitesmoke;
+    border: none;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.by-now:hover{
+    background-color: #bd0b76;
+    transition: 0.6s;
+}
+.header-row-col2{
+    width: 50%;
+    height: fit-content;
+    animation-duration: 3s;
+    animation-name: mk1;
+}
+.header-row-col2 img{
+    height: 80%;
+    width: 80%;
+    margin-top: -100px;
+    float: right;
+}
+@keyframes mk1{
+    from{transform: translateY(40px)}
+ 
+ }
+.icons{
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    color: #fe019a;
+}
+.icons i:hover{
+   
+    color: #7d054d;
+}
+/*popula section*/
+
+.popular{
+    width: 80%;
+    height: fit-content;
+    margin: 50px auto;
+    display: flex;
+    
+}
+.pph1{
+    text-align: center;
+    color: var(--color-3);
+    font-size: 30px;
+}
+.popular .pcol1{
+    width: 26%;
+    height: fit-content;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    margin: auto;
+    overflow: hidden;
+}
+.pcol1:hover{
+    transform: scale(1.02);
+    transition: transform 0.7s;
+    box-shadow: 0  30px 20px rgba(0,0,0,0.1);
+
+}
+.pcol1 img{
+    width: 100%;
+    object-fit: cover;
+}
+.pp-content{
+    margin-top: 50px;
+    text-align: center;
+}
+.pp-content h2,p{
+    color: var(--color-3);
+}
+.pp-content span{
+    margin-top: 10px;
+    color: var(--color-2);
+    font-weight: bold;
+}
+
+/*most seleed*/
+.most-selecd{
+    width: 60%;
+    height: fit-content;
+    margin: 50px auto;
+    display: flex;
+    
+}
+.mosth1{
+    text-align: center;
+    color: var(--color-3);
+    font-size: 30px;
+}
+.most-selecd .mcol1{
+    width: 40%;
+    height: fit-content;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    margin: auto;
+    overflow: hidden;
+    
+}
+.mcol1 img{
+    width:100%;
+    height:350px;
+    
+    
+}
+.m-content{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.m-content h2,p{
+    color: var(--color-3);
+}
+.m-content span{
+    margin-top: 10px;
+    color: var(--color-2);
+    font-weight: bold;
+}
+.mcol1 span{
+    font-weight: bold;
+    color: var(--color-2);
+    margin-left: 10px;
+
+}
+.dcontact{
+    
+    width: 70%;
+    height: fit-content;
+    margin: 50px auto;
+    background-color: #f8c4e3;
+    border-radius: 15px;
+}
+.dcontact:hover{
+    
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: 0.6s;
+}
+
+.dcontact .contact-col{
+    width: 60%;
+    height:200px;
+    margin: auto;
+}
+.contact-col h2,p{
+    color: var(--color-3);
+    text-align: center;
+    padding: 5px 0;
+}
+.contact-col input{
+   margin-left: 100px;
+   padding: 8px 40px;
+   border: none;
+   border-radius: 5px;
+   border:  1px solid var(--color-3);
+   outline: none;
+}
+.contact-col button{
+    padding: 5px 18px;
+    background-color: var(--color-2);
+    color: white;
+    font-size: 17px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: #f2f1f1;
+    display: flex;
+    gap: 30px;
+}
+.fcol1{
+    width: 33%;
+    height: fit-content;
+}
+.fcol1 h2{
+    color: #563f2e;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.fcol1 p{
+    color: #563f2e;
+    text-align: center;
+    padding-top: 10px;
+}
+.fcol1 ul {
+text-align: center;
+margin-top: 10px;
+}
+.fcol1 ul li{
+    list-style: none;
+    gap: 20px;
+}
+.fcol1 ul li a{
+    text-decoration: none;
+    color: var(--color-3);
+    font-size: 17px;
+}
+.fcol1 ul li a:hover{
+   color: var(--color-2);
+   transition: 0.5s;
+}
+.last{
+    width: 100%;
+    height: 100px;
+    background-color: #f2f1f1;
+}
+.lcol{
+    margin: 0 auto;
+}
+hr{
+    width: 20%;
+    margin: 0 auto;
+}
+.ficons{
+    text-align: center;
+    margin-top: 5px;
+}
+.ficons i{
+    color: var(--color-2);
+}
+.loginheader{
+    width: 100%;
+    height: 100px;
+}
+.loginsection{
+    width: 100%;
+    height: 500px;
+}
+.loginsection form{
+    margin: 100px auto;
+    height: 400px;
+    width: 50%;
+    background-color: #faf7f4;
+    border-radius: 15px;
+}
+.loginsection form input{
+    padding: 5px 40px;
+    margin: 7px 200px;
+    border-radius: 5px;
+    border: none;
+    border:  1px solid var(--color-3);
+
+}
+.loginsection .btn-login{
+    margin-left: 200px;
+}
+.loginsection h2{
+    text-align: center;
+    color: #563f2e;
+}
+@media (max-width:480px){
+    body{
+        background-color: aqua;
+    }
+    .menu-icon i{
+        display: block;
+    }
+    .nav-bar{
+        padding: 0px 30px;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .nav-bar ul{
+        position: absolute;
+        top: 90px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        background-color:var(--color-1);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+       height: 350px;
+    } 
+    header{
+        height: fit-content;
+    }
+    .header-row{
+        height: fit-content;
+        width: 80%;
+        margin: 5px auto;
+        display: flex;
+        flex-direction: column; 
+    }
+    .header-row-col1{
+        width: 80%;
+        height: fit-content;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .header-row-col1 h1{
+        font-size: 32px;
+        color: var(--color-3);
+    }
+    .header-row-col1 .by-now{
+        padding: 6px 16px;
+        background-color: var(--color-2);
+        color: whitesmoke;
+        border: none;
+        font-size: 18px;
+        margin-top: 20px;
+        
+    }
+    .header-row-col2{
+        width: 80%;
+        height: fit-content;
+        animation-duration: 3s;
+        animation-name: mk1;
+    }
+    .header-row-col2 img{
+        height: 90%;
+        width: 90%;
+        margin-top: -100px;
+        float: right;
+        text-align: center;
+    }
+    #mymenu{
+        transition: all 0.5s;
+    }
+    .popular{
+        width: 80%;
+        height: fit-content;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .popular .pcol1{
+        width: 100%;
+        height: fit-content;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        margin:20px auto;
+        
+    }
+    .pcol1 img{
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+    .most-selecd{
+        width: 100%;
+        height: fit-content;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .mosth1{
+        text-align: center;
+        color: var(--color-3);
+        font-size: 30px;
+    }
+    .most-selecd .mcol1{
+        width: 80%;
+        height: fit-content;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        margin:20px  auto;
+        overflow: hidden;
+        
+    }
+    .mcol1 img{
+        width:100%;
+        height:350px;
+        
+        
+    }
+    .dcontact{
+    
+        width: 80%;
+        height: fit-content;
+        margin: 50px auto;
+        background-color: #f8c4e3;
+        border-radius: 15px;
+    }
+    .dcontact:hover{
+        
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        transition: 0.6s;
+    }
+    
+    .dcontact .contact-col{
+        width: 80%;
+        height:fit-content;
+        margin:10px  auto;
+    }
+    .contact-col h2,p{
+        color: var(--color-3);
+        text-align: center;
+        padding: 5px 0;
+    }
+    .contact-col input{
+       margin-left:5px;
+       padding: 8px 20px;
+       border: none;
+       border-radius: 5px;
+       border:  1px solid var(--color-3);
+       outline: none;
+       margin: 10px 20px;
+    }
+    .contact-col button{
+        padding: 5px 18px;
+        background-color: var(--color-2);
+        color: white;
+        font-size: 17px;
+        border: none;
+        margin-left: 25px;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+    footer{
+        width: 100%;
+        height: fit-content;
+        background-color: #f2f1f1;
+        display: flex;
+        flex-direction: column; 
+    }
+    .fcol1{
+        width: 90%;
+        height: fit-content;
+    }
+    .loginheader{
+        width: 100%;
+        height:fit-content;
+    }
+    .loginsection{
+        width: 100%;
+        height: fit-content;
+    }
+    .loginsection form{
+        margin: 100px auto;
+        height: fit-content ;
+        width: 80%;
+        background-color:red;
+        border-radius: 15px;
+
+    }
+    .loginsection form input{
+        padding: 5px 30px;
+        margin: 7px 100px;
+        border-radius: 5px;
+        border: none;
+        border:  1px solid var(--color-3);
+    
+    }
+    .loginsection .btn-login{
+        margin-left: 200px;
+    }
+    .loginsection h2{
+        text-align: center;
+        color: #563f2e;
+    }
+}
