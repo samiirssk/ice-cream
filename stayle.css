@@ -545,15 +545,15 @@ hr{
 
     }
     .loginsection form input{
-        padding: 5px 30px;
-        margin: 7px 100px;
+        padding: 5px 10px;
+        margin: 7px 50px;
         border-radius: 5px;
         border: none;
         border:  1px solid var(--color-3);
     
     }
     .loginsection .btn-login{
-        margin-left: 200px;
+        margin-left: 50px;
     }
     .loginsection h2{
         text-align: center;
