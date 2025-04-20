@@ -546,7 +546,7 @@ hr{
     }
     .loginsection form input{
         padding: 5px 10px;
-        margin: 7px 50px;
+        margin: 7px 5px;
         border-radius: 5px;
         border: none;
         border:  1px solid var(--color-3);
