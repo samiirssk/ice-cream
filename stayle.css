@@ -355,7 +355,7 @@ hr{
     text-align: center;
     color: #563f2e;
 }
-@media (width <= 480px){
+@media (max-width:480px){
     
     .menu-icon i{
         display: block;
@@ -545,8 +545,8 @@ hr{
 
     }
     .loginsection form input{
-        padding: 5px 30px;
-        margin: 7px 100px;
+        margin-left:5px;
+        padding: 8px 20px;
         border-radius: 5px;
         border: none;
         border:  1px solid var(--color-3);
